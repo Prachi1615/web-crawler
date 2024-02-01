@@ -1,6 +1,7 @@
 # web-crawler
 
 Step 1 - clone the repository 
+
 Step 2 - if you want to run cli-based solution, 
   cd cli-solution 
   set evironment variable fir the API key
