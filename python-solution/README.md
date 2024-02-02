@@ -41,3 +41,6 @@ flask run
 OPTIONAL - Alternatively you can run ./run to install the required dependencies and run the app
 
 You should now be able to access the app at [http://localhost:5000]
+
+Link to presentation
+https://npuniversityedu-my.sharepoint.com/:p:/g/personal/psethi21343_student_sfbu_edu/Ec18lP9dV2NBnq3ot4qJwd4BZnl3qr-klyRi1m6RUDWPMw?e=gQNXcn
