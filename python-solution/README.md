@@ -43,4 +43,4 @@ OPTIONAL - Alternatively you can run ./run to install the required dependencies 
 You should now be able to access the app at [http://localhost:5000]
 
 Link to presentation
-https://npuniversityedu-my.sharepoint.com/:p:/g/personal/psethi21343_student_sfbu_edu/Ec18lP9dV2NBnq3ot4qJwd4BZnl3qr-klyRi1m6RUDWPMw?e=gQNXcn
+https://docs.google.com/presentation/d/1WhVTfRNvpshxKgeAB3E3s8mw6SjQ2r8P/edit#slide=id.p6
