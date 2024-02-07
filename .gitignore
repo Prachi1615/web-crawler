@@ -161,4 +161,4 @@ cython_debug/
 
 cli-solution/processed/
 node-server-solution/processed/
-node-server-solution/node_modules
+node-server-solution/node_modules/

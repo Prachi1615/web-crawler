@@ -1,0 +1,71 @@
+/* src/components/App.css */
+
+/* Body styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #2c3e50; /* Dark background color */
+  color: #ecf0f1; /* Light text color */
+}
+
+/* App container styles */
+.app-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #34495e; /* Container background color */
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styles */
+h1 {
+  color: #3498db; /* Header color */
+  text-align: center;
+}
+
+/* Input styles */
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+input {
+  width: 100%;
+  padding: 12px; /* Increase padding for better spacing */
+  font-size: 14px;
+  border: 1px solid #2c3e50; /* Input border color */
+  border-radius: 4px;
+  background-color: #34495e; /* Input background color */
+  color: #ecf0f1; /* Input text color */
+  box-sizing: border-box; /* Ensure padding is included in the width */
+}
+
+/* Button styles */
+button {
+  background-color: #e74c3c; /* Button color */
+  color: #fff;
+  padding: 12px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #c0392b; /* Hover color */
+}
+
+/* Answer styles */
+h2 {
+  color: #3498db; /* Answer header color */
+}
+
+p {
+  font-size: 18px;
+  color: #ecf0f1;
+  margin-top: 10px;
+}
