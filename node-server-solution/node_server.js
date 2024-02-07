@@ -18,7 +18,7 @@ app.post('/answer-question', (req, res) => {
   const { question } = req.body;
 
   // Replace 'python_script.py' with the path to your Python script.
-  const pythonScriptPath = 'app.py';
+  const pythonScriptPath = 'python_sript.py';
 
   // Construct the command to run the Python script with arguments.
   const command = `python ${pythonScriptPath} "${question}"`;
