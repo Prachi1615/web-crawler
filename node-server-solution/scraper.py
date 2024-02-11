@@ -163,7 +163,7 @@ def crawl(url):
         with open('text/'+local_domain+'/'+url[8:].replace("/", "_") + ".txt", "w") as f:
 
             # Get the text from the URL using BeautifulSoup
-            soup = BeautifulSoup(requests.get(url).text, "html.parser")
+            soup = BeautifulSoup(requests.get(url, timeout=60).text, "html.parser")
 
             # Get the text but remove the tags
             text = soup.get_text()
