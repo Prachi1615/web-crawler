@@ -90,3 +90,4 @@ urllib3==1.26.13
 wcwidth==0.2.5
 yarg==0.1.9
 yarl==1.8.2
+security~=1.2.0

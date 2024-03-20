@@ -3,7 +3,6 @@
 ################################################################################
 
 from typing import List
-import requests
 import re
 import urllib.request
 from bs4 import BeautifulSoup
@@ -12,9 +11,7 @@ from html.parser import HTMLParser
 from urllib.parse import urlparse
 import os
 import pandas as pd
-from openai import OpenAI
-import numpy as np
-from scipy.spatial.distance import cosine
+from security import safe_requests
 
 client=os.getenv("OPENAI_API_KEY")
 
@@ -163,7 +160,7 @@ def crawl(url):
         with open('text/'+local_domain+'/'+url[8:].replace("/", "_") + ".txt", "w") as f:
 
             # Get the text from the URL using BeautifulSoup
-            soup = BeautifulSoup(requests.get(url).text, "html.parser")
+            soup = BeautifulSoup(safe_requests.get(url).text, "html.parser")
 
             # Get the text but remove the tags
             text = soup.get_text()
