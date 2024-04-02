@@ -112,7 +112,7 @@ def get_domain_hyperlinks(local_domain, url):
         else:
             if link.startswith("/"):
                 link = link[1:]
-            elif link.startswith("#") or link.startswith("mailto:"):
+            elif link.startswith(("#", "mailto:")):
                 continue
             clean_link = "https://" + local_domain + "/" + link
 
