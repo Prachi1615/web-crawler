@@ -138,7 +138,7 @@ def crawl(url):
     queue = deque([url])
 
     # Create a set to store the URLs that have already been seen (no duplicates)
-    seen = set([url])
+    seen = {url}
 
     # Create a directory to store the text files
     if not os.path.exists("text/"):
